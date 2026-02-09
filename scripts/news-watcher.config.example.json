@@ -1,0 +1,27 @@
+{
+  "feeds": [
+    "https://news.google.com/rss/search?q=artificial%20intelligence%20plush%20toy%20industry&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=AI%20plush%20toy%20manufacturing&hl=en-US&gl=US&ceid=US:en"
+  ],
+  "keywords": [
+    "plush",
+    "stuffed toy",
+    "soft toy",
+    "teddy",
+    "AI",
+    "artificial intelligence",
+    "manufacturing"
+  ],
+  "smtp": {
+    "host": "smtp.yourprovider.com",
+    "port": 587,
+    "secure": false,
+    "user": "your-email@company.com",
+    "pass": "your-app-password",
+    "from": "AI Plush News <your-email@company.com>"
+  },
+  "recipients": [
+    "alerts@company.com"
+  ],
+  "cachePath": "./scripts/.news-watcher-cache.json"
+}
