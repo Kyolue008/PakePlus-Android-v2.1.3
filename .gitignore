@@ -15,6 +15,8 @@
 local.properties
 /.idea
 node_modules
+scripts/news-watcher.config.json
+scripts/.news-watcher-cache.json
 # Built application files
 *.apk
 *.aar

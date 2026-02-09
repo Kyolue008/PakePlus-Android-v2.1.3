@@ -162,6 +162,32 @@ pnpm run build
 
 ```
 
+## AI Plush Toy News Watcher (email alerts)
+
+You can run a lightweight watcher to collect AI-driven plush toy industry news and email you immediately when new items appear. It uses RSS feeds (Google News by default), keyword filtering, and SMTP for email delivery.
+
+1. Install dependencies:
+
+```sh
+pnpm i
+```
+
+2. Copy the sample config and update SMTP credentials and recipients:
+
+```sh
+cp scripts/news-watcher.config.example.json scripts/news-watcher.config.json
+```
+
+3. Run once (ideal for cron or a scheduler):
+
+```sh
+pnpm run news:watcher
+```
+
+Notes:
+- Update `feeds` and `keywords` in the config to keep results focused on your plush toy industry scope.
+- The watcher keeps a local cache to avoid duplicate alerts.
+
 ## Support
 
 1. wechat and group，my wechat is lanxingme，welcome to join the wechat group.
